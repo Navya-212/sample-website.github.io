@@ -1,0 +1,297 @@
+body{
+	margin:auto;
+}
+.container{
+	height:auto;
+	width:1000px;
+	margin:auto;
+	background-color:white;
+}
+.logo{
+	float:left;
+	padding:15px;
+	width:20px;
+	height:auto;
+}
+.search{
+	float:right;
+	padding:15px;
+}
+.clearfix{
+	clear:both;
+}
+.mainmenu{
+	background-color:teal;
+}
+.mainmenu>ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+.mainmenu>ul>li{
+	display: inline-block;
+}
+.mainmenu>ul>li>a{
+	color:white;
+	text-decoration:none;
+	display:block;
+	padding: 15px;
+	font-family:italic;
+	font-size:extra-large;
+}
+.mainmenu>ul>li>a:hover{
+	background-color:orange;
+}
+.drop{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	position:absolute;
+	display:none;
+	z-index: 999;
+}
+.drop>li>a{
+	color:white;
+	text-decoration:none;
+	display:block;
+	padding: 15px;
+	font-family:italic;
+	font-size:large;
+	background-color:black;
+}
+.drop>li>a:hover{
+	background-color:orange;
+}
+.mainmenu>ul>li:hover .drop{
+	display:block;
+}
+.banner{
+	width:1000px;
+	height:500px;
+	overflow: hidden;
+}
+.banner img{
+	width:100%;
+	height:auto;
+}
+.content-holder{
+	background-color:yellow;
+}
+.content-1{
+	float:left;
+}
+.content{
+	width: 750px;
+	height: auto;
+	padding: 40px;
+	background-color:white;
+	float: left;
+}
+.content img{
+	max-width: 100%;
+	margin:0px;
+	width:750px;
+	height:auto;
+}
+
+.content h1{
+	font-size: 1.5em;
+	font-family:bold;
+}
+.content p{
+	font-family:itallic;
+	font-size:extra small;
+}
+.side-bar{
+	float: left;
+	font-size:large;
+	padding:25px;
+	background-color:orange;
+}
+.side-bar h3{
+	font-family:italic;
+	color:white;
+}
+.side-bar ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+.side-bar ul li{
+	display:block;
+	margin-bottom:10px;
+	color:white;
+	font-family:italic;
+	font-size:large;
+	text-decoration:none;
+}
+.main-footer{
+	float:right;
+	background-color:slategray;
+	color:white;
+	width:950px;
+	padding:0px;
+}
+.footer-box{
+	width: 237.5px;
+	height:auto;
+	float:left;
+	font-family:itallic;
+	font-size:extra-small;
+}
+.footer-box > ul{
+	list-style-type: none;
+	margin:0px;
+	padding: 0px;
+}
+.footer-box > ul>li >a{
+	display:block;
+	font-size:extra-small;
+	margin-bottom:5px;
+	color:black;
+}
+.address{
+	font-size:small;
+}
+.footer-box address a{
+	color:palevioletred;
+	font-size:small;
+}
+.copy{
+	font-family:itallic;
+	padding:20px;
+	text-align:center;
+	color:deepskyblue;
+}
+.copy p{
+	margin:0px;
+}
+.content img{
+	max-width:100%;
+}
+.product{
+	width: 211.33px;
+	height:auto;
+	float:left;
+	border:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+.product-caption p{
+	font-family:bold;
+}
+.product-caption del{
+	color:red;
+}
+.product-caption ins{
+	color:green;
+}
+.product-caption a{
+	display: block;
+	background-color:rgb(22,33,44,0.5);
+	padding:8px;
+	text-align:center;
+	font-family:arial black;
+	font-size:extra small;
+	text-decoration:none;
+}
+.product-caption a:hover{
+	background-color:orange;
+}
+
+
+.skincare{
+	width: 211.33px;
+	height:auto;
+	float:left;
+	border:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+.skincare-caption p{
+	font-family:bold;
+}
+.skincare-caption del{
+	color:red;
+}
+.skincare-caption ins{
+	color:green;
+}
+.skincare-caption a{
+	display: block;
+	background-color:rgb(22,33,44,0.5);
+	padding:8px;
+	text-align:center;
+	font-family:arial black;
+	font-size:extra small;
+	text-decoration:none;
+}
+.skincare-caption a:hover{
+	background-color:orange;
+}
+
+
+.makeup{
+	width: 211.33px;
+	height:auto;
+	float:left;
+	border:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+.makeup-caption p{
+	font-family:bold;
+}
+.makeup-caption del{
+	color:red;
+}
+.makeup-caption ins{
+	color:green;
+}
+.makeup-caption a{
+	display: block;
+	background-color:rgb(22,33,44,0.5);
+	padding:8px;
+	text-align:center;
+	font-family:arial black;
+	font-size:extra small;
+	text-decoration:none;
+}
+.makeup-caption a:hover{
+	background-color:orange;
+}
+
+.hair{
+	width: 211.33px;
+	height:auto;
+	float:left;
+	border:1px solid black;
+	margin:5px;
+	padding:5px;
+}
+.hair-caption p{
+	font-family:bold;
+}
+.hair-caption del{
+	color:red;
+}
+.hair-caption ins{
+	color:green;
+}
+.hair-caption a{
+	display: block;
+	background-color:rgb(22,33,44,0.5);
+	padding:8px;
+	text-align:center;
+	font-family:arial black;
+	font-size:extra small;
+	text-decoration:none;
+}
+.hair-caption a:hover{
+	background-color:orange;
+}
+.banner iframe{
+	width: 100%;
+	height:500px;
+	
+}
